@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #0f141e;
+    background-color: #e7eaf4;
+}
+
+.info {
+    display: flex;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #e66963;
+    text-decoration: none;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a:visited {
+    color: #6399e6;
+}
+
+a:active {
+    color: #e66963;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.avatar img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+table th,
+table td {
+    padding: 5px 15px;
+}
+
+table tbody tr:last-child {
+    background: #05eade;
+}
+
+table thead {
+    background-color: #f9f9f2;
+}
+
+form {
+    color: rgb(22, 48, 48);
+}
+
+li {
+    color: #91cd0f;
+}
+
+.card {
+    border: 2px solid yellow;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 30px 20px 20px 40px;
+    margin-bottom: 20px;
+    /* margin: 20px; */
+}
+
+.about {
+    /* background: #d0d253; */
+    border: none;
+    background: transparent;
+}
+
+.experience {
+    background: #6399e6;
+}
+
+.hobbies {
+    background: #e663d0;
+}
+
+.media {
+    background: #63e6af;
+}
+
+.connect {
+    background: #e66963;
+}
+
+.btn {
+    background: #000;
+    color: #6399e6;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    transition: all ease .5s;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background: #6399e6;
+    color: #000;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
